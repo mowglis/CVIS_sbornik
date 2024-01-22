@@ -1,0 +1,20 @@
+\akce{5-00-1-01}
+\nazev{Podpora\,¾ákù\,s\,potøebou\,podpùrných opatøení\,v\,praxi\,základních\,¹kol}
+\akce{1-01-1-17}
+\nazev{Metody\,a\,formy\,práce\,se\,¾áky\,se speciální\,vzdìlávací\,potøebou}
+\akce{4-01-1-06}
+\nazev{Øe¹ení\,výchovných\,problémù\,ve\,tøídì}
+\akce{2-02-1-01}
+\nazev{Specifika\,práce\,pedagoga\,s\,dvouletými dìtmi\,v\,mateøské\,¹kole}
+\akce{4-02-1-06}
+\nazev{Specifika\,práce\,pedagoga\,s\,dvouletými dìtmi\,v\,mateøské\,¹kole}
+\akce{5-03-1-02}
+\nazev{Nápadník\,do\,hodin\,literární\,výchovy}
+\akce{2-04-1-04}
+\nazev{Angliètina\,metodou\,CLIL}
+\akce{2-04-1-05}
+\nazev{Jak\,uèit\,anglicky\,metodou\,CLIL}
+\akce{5-07-1-01}
+\nazev{Tradièní\,podzimní\,geologická\,exkurze}
+\akce{5-07-1-02}
+\nazev{Ka¾dý\,den\,roku\,Dnem\,Zemì\,aneb Jak\,na\,enviromentální\,výchovu}

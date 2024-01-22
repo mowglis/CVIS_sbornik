@@ -1,0 +1,29 @@
+\akce{1-03-1-06}
+\nazev{Metody\,aktivního\,vyuèování a\,skupinové práce s~rùznorodými texty}
+--
+\akce{1-04-1-07}
+\nazev{Teaching\,vocabulary\,and\,writing}
+--
+\akce{1-04-1-15}
+\nazev{Od\,jazykových,\,soutì¾í k~mezinárodním\,zkou¹kám\,a\,pøípravì k~maturitì}
+--
+\akce{1-06-1-05}
+\nazev{Finanèní\,gramotnost\,na\,1.\,stupni\,Z©}
+--
+\akce{1-06-1-07}
+\nazev{Finanèní\,gramotnost\,na\,2.\,stupni Z©}
+--
+\akce{1-13-1-02}
+\nazev{Pøírodovìdné hry,\,soutì¾e\,a\,námìty}
+--
+\akce{2-00-1-03}
+\nazev{Aktuální\,zmìny\,ve\,¹kolské\,legislativì}
+--
+\akce{2-03-1-02}
+\nazev{Vypravování,\,popis\,a\,rùzná\,stylistická cvièení tentokrát trochu jinak}
+--
+\akce{3-03-1-01}
+\nazev{Za\,tajemstvím\,lidových\,pohádek}
+--
+\akce{5-04-1-08}
+\nazev{Nápady\,na\,komunikaèní\,aktivity}

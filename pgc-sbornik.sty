@@ -1,0 +1,186 @@
+\NeedsTeXFormat{LaTeX2e}
+%\input{organizace-data.tex}
+\ProvidesPackage{pgc-sbornik}
+\usepackage{ifpdf}
+\ifpdf \usepackage[pdftex]{graphicx}
+\else \usepackage{graphicx}\fi
+\graphicspath{{../imgs-sbornik/},{images/}}
+\usepackage{czech}
+%\usepackage[a4paper,lmargin=20mm,rmargin=12mm,top=20mm,bottom=20mm]{geometry}
+\usepackage[a4paper,lmargin=20mm,rmargin=10mm,top=20mm,bottom=17mm]{geometry}
+\usepackage{multicol}
+\usepackage{ofs}
+%\usepackage{slido}
+\usepackage{palatino}
+\usepackage{picins}
+\usepackage{rotating}
+\usepackage{color}
+\usepackage{multirow}
+%\usepackage{ifpdf}
+%\ifpdf \usepackage[pdftex]{graphicx}
+%\else \usepackage{graphicx}\fi
+%\graphicspath{{../imgs-sbornik/},{images/}}
+%
+% obsah
+%
+%\usepackage{tocloft}
+%\setlength{\cftbeforetoctitleskip}{-30pt}
+%\setlength{\cftaftertoctitleskip}{-5pt}
+%\renewcommand{\contentsname}{}
+%\renewcommand{\cftmarktoc}{\centering{\textbf{OBSAH}}}
+%\renewcommand{\cfttoctitlefont}{\large\sf}
+%
+% definice formatu nadpisu kapitol sekci
+%
+\usepackage{titlesec}
+%
+% kapitola
+%
+\titleformat{\chapter}[display]
+%{\normalfont\Large\filcenter\sffamily}
+{\normalfont\Large\filcenter}
+{\titlerule [1pt]\vspace{1pt}\titlerule\vspace{1pc}%
+\large\MakeUppercase{Oborová skupina} \thechapter}
+{1pc}
+{\titlerule\vspace{1pc}\LARGE\bf}
+%
+% sekce
+%
+\titleformat{\section}[frame]
+{\normalfont}
+{\filright\footnotesize\enspace\thesection\enspace
+}{8pt}{\Large\bfseries\filcenter}
+% mezery pro nadpis kapitoly
+\titlespacing{\chapter}{0pt}{-35pt}{30pt}
+%
+% definice zahlavi a zapati
+%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}%
+%\fancyhead[CO]{{\large\textsc{Pedagogické centrum Hradec Králové}}}
+%\fancyhead[C]{{\footnotesize\textsf{\bfseries \leftmark}}}
+\fancyhead[C]{{\footnotesize\bfseries\leftmark}}
+%\fancyfoot[C]{\textrm{\thepage}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+% redefinice 'plain style'
+%\fancypagestyle{plain}%
+%\fancyhf{}%
+%\fancyfoot[C]{\bfseries \thepage}
+%\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0pt}
+%
+% obsah
+%
+\usepackage{minitoc}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{0}
+%\firstchapteris{0}
+\addtocounter{chapter}{-1}
+\setlength{\mtcindent}{5pt}
+%\renewcommand{\mtcfont}{\small\bf}
+\renewcommand{\mtcSSfont}{\small}
+\renewcommand{\mtcSfont}{\large\bf}
+%\renewcommand{\mtifont}{\large\sf}
+\renewcommand{\mtifont}{\large}
+\renewcommand{\mtctitle}{\textbf{Seznam vzdìlávacích programù}}
+%\newcommand{\KapitolaFmt}[1]{\chapter{\textsf{#1}}%
+\newcommand{\KapitolaFmt}[1]{\chapter{#1}%
+%\minitoc%
+%\newpage%
+%\vspace{10mm}%
+}
+%\fboxsep 8pt
+\fboxrule .7pt
+% 
+% formaty jednotlivych textu 
+%  
+\newcommand{\SekceFmt}[1]{\section{#1}}
+\newcommand{\JmenoAkce}[1]{\setfonts [CMRoman-bf/12] #1 \setfonts [CMRoman-bf/10]}
+%\newcommand{\JmenoAkce}[1]{{\large\textbf{#1}}}
+%\newcommand{\JmenoAkce}[1]{%
+%{\fontencoding{IL2}%
+%\fontfamily{cmss}%
+%\fontsize{10}{12pt}%
+%\fontseries{bx}%
+%\selectfont #1}}
+\newcommand{\TerminFmt}[1]{#1}
+\newcommand{\PolozkaNadpis}[1]{\setfonts [CMRoman-bf/10] \small #1 \normalsize}
+%newcommand{\PolozkaNadpis}[1]{\textbf{#1}}
+\newcommand{\cisloAkce}[1]{\setfonts [CMRoman-bf/8] #1}
+%\newcommand{\PolozkaObsah}[1]{#1}
+\newcommand{\PolozkaObsah}[1]{\setfonts [CMRoman/10] #1}
+\newcommand{\cisloStrany}[1]{\setfonts [CMRoman/8] #1}
+\newcommand{\bigs}{\itemsep 2pt}
+\newcommand{\normals}{\itemsep 2pt}
+%
+% prikazy
+%
+\def\bfont{\setfonts [CMSans-bf/10]}
+\def\nfont{\setfonts [CMSans/10]}
+\definecolor{svetla}{gray}{.89}
+\definecolor{tmava}{gray}{.5}
+\newcommand{\url}[1]{#1}
+%
+% loga 
+%
+\def\up{2pt}
+\def\logo#1{\raisebox{\up}{\fcolorbox{black}{svetla}{\tiny\sf #1}}}
+\def\logoM#1{\raisebox{\up}{\fcolorbox{black}{svetla}{\tiny$\Rightarrow$\textsf{\bf #1}}}}
+\def\logoNEW{\logo{NOVINKA}}
+\def\logoREP{\logo{REPRÍZA}}
+\def\logoCON{\logo{POKRAÈOVÁNÍ}}
+\def\logoTEMPL{\logo{©ABLONY}}
+\def\logoZS{\logo{Z©}}
+\def\logoZSI{\logo{Z©1}}
+\def\logoZSII{\logo{Z©2}}
+\def\logoSS{\logo{S©}}
+\def\logoMS{\logo{M©}}
+\def\logoSPS{\logo{Sp©}}
+\def\logoZUS{\logo{ZU©}}
+\def\logoHK{\logoM{HK}}
+\def\logoJI{\logoM{JC}}
+\def\logoTU{\logoM{TU}}
+\def\logoRY{\logoM{RK}}
+\def\logoNA{\logoM{NA}}
+\def\logoINKLUZE{\logo{INKLUZE}}
+%
+% radkovani
+%
+%\renewcommand{\baselinestretch}{0.9}
+%
+% definice vety z databaze
+%
+\input{recsbornik.tex}
+%
+% definice odstavce ve sborniku (popis jedne akce)
+%
+\input{odstavec.tex}
+\columnseprule 0.4pt % mezery mezi sloupci
+\columnsep 1cm
+\def\pgclogo{pgclogo}
+% uprava obsahu
+\renewcommand*\l@subsection{\@dottedtocline{2}{3em}{4em}}
+%
+% definice pro kontakty a pracovniky
+%
+\def\tab{\mbox{}}
+\def\mezera{\par \vspace{5mm} \noindent}
+\def\zahlavi{%
+\hline
+\bfseries Jméno a pøíjmení & \bfseries E-mail & \bfseries Telefon & \bfseries Jiný kontakt (skype) \\
+\hline}
+\def\nadpistab #1{\begin{center}\textbf{#1}\end{center}}
+%\def\nadpisprac #1{\framebox[\textwidth]{\textbf{#1}}}
+\def\nadpisprac #1{\framebox{\begin{minipage}{\textwidth}\begin{center}\textbf{#1}\end{center}\end{minipage}}}
+\def\tblb{\begin{tabular}{|@{~}p{.25\textwidth}@{ }p{.25\textwidth}@{ }p{.25\textwidth}@{ }p{.25\textwidth}@{ }|}
+\zahlavi
+}
+\def\tble{\hline \end{tabular}\\ \mezera}
+%
+% organizace
+%
+\def\Web{http://www.kkivi.cz}
+\def\Ustav{Královéhradecký krajský institut pro vzdìlávání a inovace -- ¹kolské zaøízení pro dal¹í vzdìlávání pedagogických pracovníkù a støedisko slu¾eb ¹kolám, pøíspìvková organizace}

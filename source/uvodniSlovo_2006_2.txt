@@ -1,0 +1,22 @@
+\addtocontents{toc}{{\itshape Úvodní slovo}}
+\mbox{}
+%\vspace{6cm}
+\vfill\noindent
+{\vfill\noindent
+\large
+\textbf{Vá¾ené kolegynì, vá¾ení kolegové,}\\[20mm]
+
+s poèátkem nového kalendáøního roku za Vámi opìt pøicházíme s novou programovou nabídkou na 2. pololetí ¹kolního roku 2006/2007. Pova¾uji za dùle¾ité Vás upozornit na nìkteré specifické programy, které v ní vedle mnoha dal¹ích programù nabízených v rámci prùbì¾ného DVPP naleznete.\\
+
+	Jedná se zejména o 3 typy akreditovaného kvalifikaèního studia dle zákona è. 563/2004 Sb. - \textbf{Studium pro øeditele ¹kol a ¹kolských zaøízení, Studium pedagogiky (bývalé DPS)} a studium \textbf{Asistent pedagoga}. 
+
+V souvislosti s pøípravou na novou maturitní zkou¹ku dále zahajujeme jako certifikované zaøízení CERMATu \textbf{pro¹kolování k organizaci a hodnocení maturitní zkou¹ky} dle jednotlivých pøedmìtù èi vzdìlávacích oblastí.\\[50mm]
+	
+	Dovolte mi, abych vyu¾ila této pøíle¾itosti a podìkovala Vám za dosavadní spolupráci, podporu a vstøícnost a popøála Vám ¹»astný vstup do nového roku 2007. Tì¹íme se na setkání s Vámi na na¹ich vzdìlávacích akcích i mimo nì a na Va¹e ohlasy, pøipomínky a námìty, za které pøedem dìkujeme.
+
+\vfill
+					Za kolektiv pracovníkù ©kolského zaøízení pro dal¹í vzdìlávání pedagogických pracovníkù Královéhradeckého kraje\\[20mm]
+
+\noindent
+leden 2007\hfill Mgr. Marcela Nováková v. r.\\
+\mbox{}\hfill øeditelka}

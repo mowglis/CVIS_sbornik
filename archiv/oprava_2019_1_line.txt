@@ -1,0 +1,36 @@
+\akce{1-00-1-07}
+\nazev{Hospitaèní\,exkurze\,ve\,speciální ¹kole}
+\akce{1-00-1-13}
+\nazev{Vzdìlávací\,program\,pro\,zástupce øeditelù ¹kol\,a\,©Z. Jak se\,bránit manipulaci a nátlaku v~jednání s~druhými}
+\akce{1-01-1-22}
+\nazev{Vzdìlávání,\,pøístupy\,a\,podpora\,dìtí a ¾ákù\,s\,poruchou\,autistického\,spektra a\,s\,Aspergerovým\,syndromem}
+\akce{2-01-1-03}
+\nazev{Psychosomatické\,projevy\,syndromu vyhoøení\,a\,mo¾nosti\,jejich\,prevence}
+\akce{4-01-1-04}
+\nazev{®áci\,se\,speciálními\,vzdìlávacími\,potøe-bami\,v\,inkluzivním\,vzdìlávání}
+\akce{4-01-1-02}
+\nazev{Vzdìlávání\,¾ákù\,s~PAS\,v~bì¾né ¹kole}
+\akce{1-02-1-07}
+\nazev{Hrajeme\,si\,s~magnetickými stavebnicemi\,a\,geometrickými\,kartami\,}
+\akce{2-02-1-04}
+\nazev{Základní\,typy\,reagování\,dítìte}
+\akce{4-02-1-05}
+\nazev{Polytechnická\,výchova\,v~M©\,aneb Tunely\,a\,mosty\,krátí\,vzdálenosti}
+\akce{5-02-1-11}
+\nazev{Muzikofiletika\,pro\,dvouleté\,dìti\,v\,M©}
+\akce{4-03-1-01}
+\nazev{Významná\,výroèí\,--\,Bo¾ena\,Nìmcová}
+\akce{1-04-1-02}
+\nazev{Festivals\,in\,Britain\,and\,the\,USA}
+\akce{2-06-1-04}
+\nazev{Vyhlá¹ka è.~50/1978\,Sb.,\,\S~11,\,o~odborné\,zpùsobilosti\,v~elektrotechnice}
+\akce{1-07-1-02}
+\nazev{Bezpeènost\,práce\,ve\,¹kolní\,laboratoøi}
+\akce{2-07-1-03}
+\nazev{Laboratorní cvièení z~ekologie, ochrany a tvorby\,¾ivotního\,prostøedí}
+\akce{5-07-1-01}
+\nazev{Tradièní\,podzimní\,geologická\,exkurze}
+\akce{1-12-1-01}
+\nazev{Studium\,k~výkonu\,specializovaných èinností\,--\,koordinace\,v~oblasti informaèních\,a\,komunikaèních\,technologií}
+\akce{2-12-1-01}
+\nazev{Kanceláøské aplikace efektivnì}

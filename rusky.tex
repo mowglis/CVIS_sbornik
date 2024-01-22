@@ -1,0 +1,29 @@
+\documentclass{article}
+%\usepackage[OT2, T1]{fontenc}
+\usepackage[OT2]{fontenc}
+
+%\usepackage[utf8]{inputenc}
+%\usepackage[russian]{babel}
+%\setmainfont{CMU Serif}[Ligatures=TeX]
+
+
+%\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{tempora}
+%\setmainfont{Linux Libertine O}
+%\usepackage{fontspec}
+%\usepackage{polyglossia}
+%\setmainlanguage{russian} 
+%\setotherlanguage{english}
+
+\newcommand\textcyr[1]{{\fontencoding{OT2}\selectfont #1}}
+%\newfontfamily\russianfont[Script=Cyrillic]{Linux Libertine}
+\begin{document}
+
+
+%\begin{otherlanguage*}{russian}
+%\foreignlanguage{russian}{Текст на русском языке.}
+Это не работающий русский текст.\\ Выдаёт ошибку при компиляции.
+%\end{otherlanguage*}
+\end{document}

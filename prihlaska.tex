@@ -1,0 +1,47 @@
+%\addcontentsline{toc}{section}{Formuláøe pøihlá¹ek}
+\newlength{\nskip}
+\nskip=\baselineskip
+\def\tecky{\makebox[5cm]{\dotfill}}
+\def\emptyrow{
+\mbox{} & \mbox{} & \mbox{} & \mbox{} & \mbox{} & \mbox{} & \mbox{}\\
+\hline}
+\def\kecy{\baselineskip=9pt
+\par
+\noindent
+\footnotesize
+Potvrzujeme, ¾e jsme se seznámili s~platnými Podmínkami pro pøihla¹ování a úèast na vzdìlávacích programech a souhlasíme s~nimi. Bereme zejména na vìdomí, ¾e jsme v~pøípadì neúèasti nebo zru¹ení pøihlá¹ky po uzávìrce povinni uhradit stanovený úèastnický poplatek v~plné vý¹i.\\[3mm]
+\textbf{*Zpùsob platby:\hspace{5mm}a) fakturace (pøedem)\hspace{5mm}b) bankovní pøevod (pøedem)}\hspace{5mm}(* nehodící se ¹krtnìte)}
+\def\prihlas{
+\renewcommand{\arraystretch}{2.3}
+%\renewcommand{\tabcolsep}{0pt}
+%\parpic[t]{\includegraphics[scale=.15]{\pgclogo}} 
+{\centering\mbox{}\\
+{\Huge \MakeUppercase{Závazná pøihlá¹ka}}\\
+{\footnotesize na vzdìlávací program}\\[1mm]
+}
+\picskip{0}
+\noindent
+\normalsize
+\begin{tabular}{|p{.65\textwidth}p{.3\textwidth}|}
+\hline
+Datum a místo narození:\ \dotfill & IÈO ¹koly:\ \dotfill\\
+%\hrule & \hrule\\
+%\hline
+Èíslo a název programu (zkrácenì):\ \dotfill & Termín:\ \dotfill\\
+Pøíjmení, jméno a titul:\ \dotfill & E-mail:\ \dotfill \\
+Název a adresa ¹koly:\ \dotfill & Telefon: \dotfill\\
+%Pracovní pozice:\ \dotfill & \dotfill\\
+PSÈ:\ \dotfill & Mobil:\ \dotfill\\
+%Adresa bydli¹tì:\ \dotfill & Telefon / e-mail:\ \dotfill\\
+\hline
+\end{tabular}
+\kecy\\[7mm]
+V\ \tecky\ dne\ \tecky\\[6mm]
+{\footnotesize Souhlas vedení ¹koly (¹kol. zaøízení):}\\[8mm]
+\tecky \hfill \tecky\\
+{\footnotesize \makebox[1.5cm]{}podpis, razítko \hfill podpis pøihlá¹eného\makebox[1.5cm]{}}
+\par
+\baselineskip=\nskip
+}
+%
+\prihlas\noindent\vfill\prihlas\par

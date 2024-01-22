@@ -1,0 +1,30 @@
+\akce{1-00-2-19}
+\nazev{Aktuální\,zmìny\,ve\,¹kolské\,legislativì}
+\akce{1-01-2-08}
+\nazev{Strategie\,vedení\,tøídy\,na\,1.\,stupni\,Z©}
+\akce{5-01-2-03}
+\nazev{Jak\,pøedejít\,socializaèním\,obtí¾ím ¾ákù ve ¹kolách\,a\,¹kolských zaøí-\\zeních}
+\akce{5-01-2-09}
+\nazev{Plán\,pedagogické\,podpory\,a\,IVP}
+\akce{5-01-2-16}
+\nazev{Psychosomatické\,obtí¾e\,u~dìtí\,a\,¾ákù}
+\akce{4-02-2-04}
+\nazev{Aktivity\,v~pøírodì\,a\,environmentální výchova}
+\akce{4-02-2-06}
+\nazev{Polytechnická\,výchova\,v~M©\,aneb Tunely\,a\,mosty\,krátí\,vzdálenosti}
+\akce{3-06-2-01}
+\nazev{Vyhlá¹ka\,è.\,50/1978\,Sb.,\,\S\,\,11\\o odborné zpùsobilosti v elektrotechnice}
+\akce{5-08-2-01}
+\nazev{Hravá\,jóga\,pro\,dìti\,¹kolního\,vìku}
+\akce{1-10-2-06}
+\nazev{Pøání\,a\,dekorace\,nejen\,ke\,Dni\,matek}
+\akce{1-10-2-14}
+\nazev{Výtvarná\,dílna.\,Nebojme\,se\,akvarelu}
+\akce{2-12-2-01}
+\nazev{Kanceláøské\,aplikace\,efektivnì\\}
+\akce{1-01-2-09}
+\nazev{Kariérové\,poradenství\,ve\,¹kolách v rychle\,se\,mìnící\,spoleènosti}
+\akce{5-05-2-01}
+\nazev{Média\,jako\,zrcadlo\,doby\,aneb\\Jak se\,neztratit\,v záplavì\,informací\,I}
+\akce{2-01-2-11}
+\nazev{Vývojové charakteristiky dospívání aneb Puberta je, kdy¾\dots}

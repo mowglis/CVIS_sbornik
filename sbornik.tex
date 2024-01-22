@@ -1,0 +1,45 @@
+\documentclass[a4paper,twoside]{report}
+\usepackage{pgc-sbornik}
+\usepackage{enumitem}
+\begin{document}
+\hyphenation{©tef-co-va bio-logic-ké-ho tsche-chische Fertig-keiten Denisova geo-met-rie Pe-da-go-gic-ké Holla-brunn dia-gnos-ti-ka ma-te-riá-lù Har-dan-gervid-da Bio-ko-vo psycho-diagnostické inte-riérových scrap-book geo-metrická Six-smith}
+%------------------------
+% uvodni slovo reditelky
+%------------------------
+%\newpage
+%\setfonts [Lido-rm/10]
+%\thispagestyle{empty}
+%\input{uvodniSlovo.tex}
+%-----------------------
+% obsah
+%-----------------------
+\newpage
+\setcounter{page}{1}
+%\setfonts [Lido-crm/10]
+\minitoc
+\tableofcontents
+%\input{organizace-data.tex}
+\input{legenda.tex}
+%-----------------------
+% prefix 
+%-----------------------
+\input{sbornikPrefix.tex}
+%-----------------------------
+% akce - vlozeni dat z Bary
+%-----------------------------
+% obrazek
+%\newpage
+%\unitlength=1mm
+%\begin{picture}(0,0)
+%\vspace{7cm}
+%\put(20,-150){\includegraphics{../images/Premysl}}
+%\end{picture}
+%------------------------
+% postfix
+%------------------------
+\input{akceDb.tex}
+%------------------------
+% postfix
+%------------------------
+\input{sbornikPostfix.tex}
+\end{document}

@@ -1,0 +1,119 @@
+\documentclass[a4paper]{article}
+\usepackage{czech}
+\usepackage[a4paper,lmargin=20mm,rmargin=20mm,top=15mm,bottom=7mm,nohead,nofoot]{geometry}
+\usepackage{picins}
+\usepackage{ofs}
+%\usepackage{slido}
+\usepackage{ifpdf}
+\usepackage{palatino}
+\usepackage{wallpaper}
+\input{organizace-data.tex}
+
+%----------------------------------------------------------------------
+% promenne hodnoty pro kazde pololeti 
+\def\organizace{©kolské zaøízení pro dal¹í vzdìlávání pedagogických pracovníkù Královéhradeckého kraje}
+\def\vyslo{záøí 2023}
+\def\naklad{200}
+%\def\copyr{\footnotesize\textit{\organizace\ \copyright\ 2020-2022}}
+\def\copyr{\footnotesize\textit{\Ustav\ \copyright\ 2020-2024}}
+\def\pololeti{1.}
+\def\skrok{2023/2024}
+
+%----------------------------------------------------------------------
+%\ifpdf \usepackage[pdftex]{graphicx}
+%\else \usepackage{graphicx}\fi
+%\graphicspath{{../imgs-sbornik/},{images/}}
+\def\nfont{\setfonts [CMRoman/9]}
+%\def\nadpis #1{\setfonts [Lido-bf/12]\framebox[\textwidth]{#1}\nfont}
+\def\nadpis #1{%
+\begin{shadowenv}
+\setfonts [CMSans-bf/12] \centering #1\nfont
+\end{shadowenv}
+}
+\def\nadpisakce #1{\setfonts [CMSans-bf/10] #1 \nfont}
+\def\tab{\mbox{}}
+\pagestyle{empty}
+\parindent 0mm
+%\fboxrule 1pt
+\linethickness{.7pt}
+%
+\def\PracAdr #1#2#3#4#5{
+\begin{center}
+{\Large\bf #1}\\[3mm] Adresa: #2\\ #3\\ E-mail: #4\\ Vedoucí: #5
+\end{center}\vfill}
+% logo organizace
+\graphicspath{{./images/}}
+\def\logo{logo_kkivi.png}
+\def\meritko{.52}
+
+\begin{document}
+%********************************************************
+% predni strana
+%********************************************************
+% pozadi: ve-zel2, ve-modr
+%\ThisCenterWallPaper{.7}{images/ve-modr}
+\begin{minipage}{\linewidth}
+\parpic[l][l]{\scalebox{\meritko}{\includegraphics{\logo}}}
+{\centering%
+%\resizebox{.83\textwidth}{5mm}{\bf\organizace}\\[1mm]
+\resizebox{.83\textwidth}{4mm}{\bf\Ustav}\\[1mm]
+{\resizebox{.25\textwidth}{3mm}{\bf Hradec Králové, Na Okrouhlíku 1371/30}}\\
+\rule{.83\textwidth}{.3pt}\\[3mm]
+%\resizebox{.83\textwidth}{4mm}{\bf Pracovi¹tì Hradec Králové, Jièín, Náchod, Rychnov nad Knì¾nou a Trutnov}
+}
+%\vfill
+\end{minipage}
+\vspace{20mm}
+\noindent\begin{center}
+\resizebox{\textwidth}{12mm}{\bf NABÍDKA PROGRAMÙ}\\[2cm]
+{\LARGE\bf pro dal¹í vzdìlávání pracovníkù ¹kol a ¹kolských zaøízení\\[2cm]
+na období\\
+ \Huge\bf záøí 2023 -- leden 2024\\}
+%\vspace{15mm}
+%%%%%%% obrazek
+%\begin{figure}
+%\includegraphics[scale=.35]{images/sova3}
+%\includegraphics{ve-modr}
+%\end{figure}
+%\par
+\vfill
+\Huge\bf \Web\\
+\vspace{2cm}
+\copyr
+\end{center}
+%***************************************************
+% zadni strana
+%***************************************************
+\newpage
+% Kontakty na pracoviste
+\begin{center}
+\resizebox{.2\textwidth}{4mm}{\bf \centering PRACOVI©TÌ}
+\end{center}
+\vspace{1cm}
+\PracAdr{HRADEC KRÁLOVÉ}{Na Okrouhlíku 1371/30, 500 02 Hradec Králové}{Telefon/fax: +420 495 514 804-5, mobil: 722 569 521}{hradec@kkivi.cz}{Martin Hepnar}
+\PracAdr{JIÈÍN}{Komenského nám. 45, 506 01 Jièín}{Telefon: +420 724 882 650}{zenata@kkivi.cz}{Drahoslava ®enatá}
+\PracAdr{NÁCHOD}{Smiøických 1237, 547 01  Náchod}{Telefon: +420 722 569 515}{krtickova@kkivi.cz}{Bc. Kateøina Krtièková, DiS.}
+\PracAdr{RYCHNOV NAD KNÌ®NOU}{Javornická 1501, 516 01 Rychnov nad Knì¾nou}{Telefon: +420 722 569 512}{pavlova@kkivi.cz}{Bc.et Bc. Marcela Pavlová}
+\PracAdr{TRUTNOV}{Lípová 223, 541 01 Trutnov}{Telefon: +420 720 516 096}{stierandova@kkivi.cz}{Ing. Stanislava Stierandová}
+% paticka
+\hrule
+%\vfill
+\vspace{4mm}
+\renewcommand{\baselinestretch}{0.7}
+\setfonts [CMRoman/7]
+%\footnotesize
+\textbf{Programová nabídka na \pololeti\,pololetí ¹kolního roku\ \skrok}
+\begin{tabbing}
+\hspace{3cm} \= \hspace{7cm} \= \hspace{3cm} \= \kill
+%\it Vydavatel: \> \organizace \> \tab \> \tab \\
+\it Vydavatel: \> \resizebox{.83\textwidth}{2mm}{\bf\Ustav} \> \tab \> \tab \\
+\it Vy¹lo: \> \vyslo \\
+%\it Odpovìdný redaktor: \> \>\it Tisk: \> Soòa Brzáková\\
+\it Technický redaktor: \> Ing. Ondøej Rusek\\% \> \tab \> CANON C5051i\\
+\tab \> \tab \>\it  Zpracováno systémem: \>  sazba \LaTeXe\\ 
+\it Náklad: \> \naklad\ výtiskù \>\it  Internet: \>\Web\\
+\it Nepro¹lo jazykovou úpravou. \> \tab \> \tab \> \tab
+\end{tabbing}
+\vspace{0.5cm}
+\centering \copyr
+\end{document}

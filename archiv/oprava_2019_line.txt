@@ -1,0 +1,28 @@
+\akce{1-01-2-13}
+\nazev{Období\,dospívání\,a\,komunikace s\,dospívajícími\,z~pohledu\,psychologie}
+\akce{3-01-2-09}
+\nazev{Problematika\,poruch\,chování\,a specifika\,práce\,s\,dìtmi\,s\,poruchou\,chování}
+\akce{5-01-2-01}
+\nazev{Psychosomatické\,projevy\,syndromu vyhoøení\,a\,mo¾nosti\,jejich\,prevence}
+\akce{1-03-2-04}
+\nazev{Podpora\,výuky\,èeského\,jazyka\,na~Z©}
+\akce{4-06-2-01}
+\nazev{Vyhlá¹ka è. 50/1978 Sb., \S\, 11, o~odborné\,zpùsobilosti\,v\,elektrotechnice}
+\akce{5-10-2-09}
+\nazev{Charanga\,aneb\,Jak\,na\,hudební\,nauku}
+\akce{1-12-2-01}
+\nazev{Studium\,k\,výkonu\,specializovaných èinností -- koordinace v oblasti in-formaèních a\,komunikaèních technologií}
+\akce{4-02-2-01}
+\nazev{Pøedètenáøská gramotnost -- práce s~dìtmi v~M©}
+\akce{4-02-2-02}
+\nazev{Rozvoj pregramotnosti. Pøíbìhy -- otázky -- písmena}
+\akce{5-02-2-10}
+\nazev{Ètenáøská pregramotnost -- vzdìlávání pedagogických pracovníkù M©}
+\akce{4-05-2-02}
+\nazev{Finanèní gramotnost -- Praktické informace o~bezpeènosti bankovního svìta}
+\akce{1-07-2-05}
+\nazev{Od pøírody k~welfare -- Nosoro¾ci ze v¹ech stran a jejich ochrana}
+\akce{3-10-2-04}
+\nazev{Tanèení nemusí být muèení -- country tance}
+\akce{3-12-2-01}
+\nazev{Cloud -- vhodné øe¹ení pro ¹koly}

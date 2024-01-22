@@ -1,0 +1,56 @@
+\def\odstavec
+{
+\begin{list}{}{%
+	\setlength{\labelwidth}{55pt}
+	\setlength{\leftmargin}{47pt}
+	\setlength{\labelsep}{7pt}
+%	\setlength{\itemindent}{0pt}
+%	\setlength{\rightmargin}{0pt}
+	\setlength{\itemsep}{0pt}
+	\setlength{\parsep}{0pt}
+	\setlength{\rightmargin}{0pt}}
+%\usefont{T1}{pbk}{bx}{n}
+{\samepage%
+{\normalfont
+\typeout{==> \Akce: \Nazev}
+\label{\Akce}
+\item [\cisloAkce{\Akce}\ ]\JmenoAkce{\Nazev}
+\if *\LogosII \else \ \LogosII \fi
+}%
+\bigs
+\addcontentsline{toc}{subsection}{\small{\Akce{} \Nazev{}}}
+%\addcontentsline{toc}{subsection}{\setfonts [Times/10]\Akce{}\hspace{2mm}\Nazev{}}
+\item [\PolozkaNadpis{Urèeno:}]\PolozkaObsah{\Urceno{}}\normals
+}%
+\item [\PolozkaNadpis{Obsah:}]\PolozkaObsah{\Popis{}}%
+%}%
+\normals
+\if *\Lektor{} \else \item [\PolozkaNadpis{Lektor:}]\PolozkaObsah{\Lektor{}}\normals\fi
+\item [\PolozkaNadpis{Termín:}]\PolozkaObsah{\Termin{}}\normals
+\if *\Poplatek{} \else \item [\PolozkaNadpis{Poplatek:}]\PolozkaObsah{\Poplatek{}}\fi
+\if *\Rozsah{} \else \item [\PolozkaNadpis{Rozsah:}]\PolozkaObsah{\Rozsah{}}\fi
+%\if *\Uzaverka{} \else \textbf{Úzávìrka pøihlá¹ek:}\> \Uzaverka{}\\\fi
+\if *\Poznamka{} \else \item [\PolozkaNadpis{Poznámka:}]\PolozkaObsah{\Poznamka{}}\fi
+{\samepage%
+\item [\PolozkaNadpis{Garant:}]\PolozkaObsah{\Garant{}}%
+\if *\Dalsigarant{} \else ,\ \PolozkaObsah{\Dalsigarant{}}\fi
+%}%
+%%% loga na konci odstavce %%%
+\if *\LogosI {
+  \if *\LogosIII
+  \else \item [\mbox{}] \LogosIII
+  \fi
+  } \else {
+  \if *\LogosIII
+    \item [\LogosI] \mbox{}
+  \else
+    \item [\LogosI] \LogosIII
+  \fi
+  }
+\fi
+}%
+\normals
+\end{list}
+%\vspace{3mm}
+}
+

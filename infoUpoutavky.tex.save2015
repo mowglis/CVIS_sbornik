@@ -1,0 +1,121 @@
+% upoutavky, informace mimo poradane akce
+%----------------------------------------
+% --- Soutì¾e ---
+%
+\thispagestyle{plain}
+\begin{minipage}{\textwidth}
+\begin{ovalenv}
+\begin{center}
+%\includegraphics[scale=.35]{images/loga_2}\\
+\vspace{10mm}
+\Large\mbox{}\\
+\fcolorbox{tmava}{svetla}{\parbox[b]{0.8\textwidth}{\centering\sc\huge Soutì¾e a pøehlídky\\ vyhla¹ované M©MT}}\\[12mm]
+\large
+{\bf Koordinátoøi okresních kol}\\
+\begin{tabbing}
+Rychnov nad Knì¾nou ~~~~\= Mgr. Dana Beráková, berakova@cvkhk.cz, 725 059 837~~~\= 34 \kill
+Hradec Králové \> Mgr. Dana Beráková, \url{berakova@cvkhk.cz}, 725 059 837\\
+%Jièín \> Mgr. Iva Lüftnerová, \url{luftnerova@cvkhk.cz}, 724 882 650\\
+Jièín \> Drahoslava ®enatá, \url{zenata@cvkhk.cz}, 724 882 650\\
+Náchod \> Bc. Jana Nývltová, \url{nyvltova@cvkhk.cz}, 724 882 652\\
+Trutnov \> Mgr. Alena Roèková, \url{rockova@cvkhk.cz}, 722 569 512\\
+Rychnov nad Knì¾nou \> Bc. Petra Jedlinská, \url{jedlinska@cvkhk.cz}, 724 882 643
+\end{tabbing}
+{\bf Koordinátorka krajských kol}\\
+\begin{tabbing}
+Rychnov nad Knì¾nou ~~~~\= Mgr. Dana Beráková, berakova@cvkhk.cz, 725 059 837~~~\= 34 \kill
+Hradec Králové \> Mgr. Dana Beráková, berakova@cvkhk.cz, 725 059 837\\
+\end{tabbing}
+{\bf Informace k~soutì¾ím}\\[5mm]
+\url{http://soutezekhk.ssis.cz}\\[5mm]
+\url{http://talentovani.cz} -- Soutì¾e\\[5mm]
+%\url{http://www.kr-kralovehradecky.cz}  -- Krajský úøad  Volnoèasové aktivity, sport a soutì¾e  Soutì¾e a pøehlídky\\
+\url{http://www.nidv.cz} -- Zájmové a neformální vzdìlávání\\[10mm]
+%\url{http://www.nidm.cz}  -- Talentcentrum  Soutì¾e a olympiády\\[10mm]
+
+{\bf Zadání a øe¹ení ¹kolních kol  }\\[5mm]
+\url{http://www.kr-kralovehradecky.cz}  -- Krajský úøad -- Volnoèasové  aktivity, sport a soutì¾e  Informace pro pedagogy (pro vstup do této èásti zabezpeèeného webu nutno zadat jméno a heslo, které bylo sdìleno v¹em øeditelùm ¹kol)
+\end{center}
+\end{ovalenv}
+\end{minipage}
+\vfill
+%
+% --- RKC - Regionální konzultaèní centrum ---
+%
+\newpage
+\begin{minipage}{\textwidth}
+\begin{ovalenv}
+\begin{center}
+%\includegraphics[scale=.35]{images/loga_2}\\
+\vspace{10mm}
+\Large\mbox{}\\
+\fcolorbox{tmava}{svetla}{\parbox[b]{0.8\textwidth}{\centering\sc\huge Regionální konzultaèní centrum}}\\[12mm]
+\Large
+{\bf nabízí v¹em SO© a O© v~Královéhradeckém kraji}\\[10mm]
+\begin{itemize}
+\item mo¾nost individuálních èi skupinových konzultací k~tvorbì, realizaci a evaluaci ©VP -- v~prostorách RKC nebo pøímo ve ¹kole
+\item semináøe a workshopy související s~kurikulem s~mo¾ností výmìny zku¹eností mezi koordinátory ©VP a pedagogy z~jiných ¹kol -- dle potøeb a po¾adavkù pedagogické veøejnosti v~prostorách RKC
+\item semináøe a workshopy související s~kurikulem na objednávku -- dle individuálních po¾adavkù a v~místì konkrétní ¹koly
+\item vydávání dodatkù k~osvìdèení EUROPASS
+\end{itemize}
+\Large
+%{\bf Uskuteènìné programy a konzultace budou do ledna 2012 financovány z projektu Kurikulum S}\\[10mm]
+
+\textit{Podrobné informace k~jednotlivým programùm naleznete uvnitø Nabídky programù.}\\[10mm]
+{\bf Kontaktní osoba:}\\
+Ing. Stanislava Stierandová, stierandova@cvkhk.cz, tel. 720 516 096\\[10mm]
+
+%Více o~projektu na\ \  \url{http://www.kurikulum.nuov.cz}
+\end{center}
+\end{ovalenv}
+\end{minipage}
+
+
+%
+% --- nabidka programu ---
+%
+\newpage
+\begin{minipage}{\textwidth}
+\begin{ovalenv}
+\begin{center}
+\vspace{8mm}
+\fcolorbox{tmava}{svetla}{\parbox[b]{0.8\textwidth}{\centering\Large\bf Nabídka vzdìlávacích programù}}\\[5mm]
+{\Large\bf
+k získání kvalifikace uèitele cizího jazyka\\dle §~12 písm. b) a d) zákona è.~563/2004~Sb.\\[5mm]}
+\fcolorbox{tmava}{svetla}{\parbox[b]{0.8\textwidth}{\centering\sc\huge Doplòující didaktické studium anglického jazyka}}\\[5mm]
+\fcolorbox{tmava}{svetla}{\parbox[b]{0.8\textwidth}{\centering\sc\huge Doplòující didaktické studium nìmeckého jazyka}}\\[9mm]
+\end{center}
+\large
+{\bf Urèeno:}
+\begin{itemize}
+\item Uèitelùm Z©, S© a J©, kteøí mají magisterské vzdìlání v oblasti pedagogických vìd, nebo jiné magisterské vzdìlání doplnìné vzdìláním zamìøeným na pøípravu uèitelù, a to v bakaláøském studijním programu nebo v programu celo¾ivotního vzdìlávání na vysoké ¹kole, a znalost cizího jazyka na úrovni minimálnì C1 SERR pro jazyky
+\end{itemize}
+\vspace{6mm}
+{\bf Obsah:}
+\begin{itemize}
+\item
+Studium podle § 6b vyhlá¹ky è. 317/2005 Sb. k získání kvalifikace uèitele cizího jazyka dle § 12 písm. b) a d) zákona è. 563/2004 Sb. Seznámení se specifiky oborové didaktiky anglického (nìmeckého) jazyka a poskytnutí základních znalostí nezbytných ke kvalitní výuce pøedmìtu anglický (nìmecký) jazyk na Z©, S© a J©. Je zakonèeno závìreèným testem a diskusí k úkolùm zadaným lektorem.
+\end{itemize}
+\vspace{6mm}
+{\bf Rozsah:}
+\begin{itemize}
+\item 60 hodin (jednosemestrální studium)
+\end{itemize}
+\vspace{6mm}
+{\bf Termín:}
+\begin{itemize}
+\item Termíny konání v 1.~pololetí 2015/16 budou upøesnìny po obdr¾ení dostateèného poètu pøedbì¾ných pøihlá¹ek.
+\end{itemize}
+\vspace{6mm}
+{\bf Uzávìrka pøihlá¹ek:}
+\begin{itemize}
+\item Pøedbì¾né pøihlá¹ky zasílejte do 18. záøí 2015 na mail volakova@cvkhk.cz.
+\end{itemize}
+\vspace{6mm}
+{\bf Dal¹í informace:}
+\begin{itemize}
+\item Pro dal¹í informace se obracejte na garanta studia -- kontakt Mgr. Eva Voláková,\\ volakova@cvkhk.cz, 777 340 409
+\end{itemize}
+\end{ovalenv}
+\end{minipage}
+\normalsize

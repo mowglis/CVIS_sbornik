@@ -1,0 +1,76 @@
+\newcommand{\obrazovka}[3]{%
+\begin{figure}[#3]
+\begin{center}
+\fbox{\includegraphics[scale=.4]{#1}}
+\caption{#2}
+\end{center}
+\end{figure}
+%\par
+}
+\SekceFmt{Prùvodce elektronickou pøihlá¹kou}\par
+\par\noindent
+Pro vyhledání informací o~vzdìlávací akci pou¾ijte vyhledávací obrazovku. Po¾adovanou akci je mo¾né vyhledat pøímo podle jejího identifikaèního kódu. 
+
+Identifikaèní kód vzdìlávací akce je ¹estimístný a má následující strukturu: \fbox{A--BB--C--DD}\\
+\begin{center}
+Význam jednotlivých èísel kódu:\\
+\begin{tabular}{|c|l|}
+\hline
+pozice & význam\\ \hline
+A~& kód pracovi¹tì\\
+BB & oborová skupina\\
+C & pololetí ¹kolního roku\\
+DD & poøadové èíslo v~rámci pracovi¹tì a oborové skupiny\\
+\hline
+\end{tabular}\\
+\end{center}
+Pokud chcete vyhledat akci pøímo podle jejího kódu, zadáte èíslo do vyhledávacího boxu bez pomlèek.
+
+Neznáte-li èíslo akce a chcete zobrazit akce urèitého pracovi¹tì, pou¾ijte odkazy v~sekci \uv{Èlenìní akcí podle pracovi¹tì}. Pokud chcete zobrazit akce urèité oborové skupiny, pou¾ijte odkazy v~sekci \uv{Èlenìní vzdìlávacích akcí po oborech}.
+\obrazovka{scr1x}{Vyhledání vzdìlávací akce}{h}
+\newpage
+Máte-li po¾adovanou akci zobrazenou v~seznamu vyhledaných akcí, tak pro zobrazení detailních informací o~akci kliknìte na název akce.
+\obrazovka{scr2x}{Zobrazení vyhledaných akcí}{h}\par
+Na obrazovce zobrazující podrobnosti o~vzdìlávací akci je ve spodní èásti umístìna tabulka s~termíny akce. Pokud jsou na akci je¹tì pøijímány pøihlá¹ky, je mo¾né provést elektronické pøihlá¹ení na vybraný termín. Jedná--li se o~cyklickou akci, pøihlá¹ka se provádí pouze na první termín cyklu, na ostatní termíny jste pøihlá¹eni automaticky. 
+
+V~øádku tabulky termínu se nachází je¹tì ikonka pro zobrazení pozvánky a pøihlá¹ky ve formátu HTML (formát urèený pro tisk na tiskárnì) a ikonka pro vygenerování pozvánky a pøihlá¹ky ve formátu PDF. Tento formát doporuèujeme z~dùvodù lep¹í typografické kvality a snadnìj¹ího tisku. Pro práci s~formátem PDF potøebujete alespoò zdarma ¹íøený prohlí¾eè \textit{Acrobat Reader} od firmy Adobe.
+\obrazovka{scr3x}{Podrobnosti vzdìlávací akce}{h}
+\newpage
+Pro zdárné vyplnìní elektronické pøihlá¹ky je klíèové správnì vyplnit úvodní box, kde je po¾adováno rodné èíslo a IZO ¹kolského zaøízení. Rodné èíslo je citlivý osobní údaj, nicménì pro bezproblémové vyhledání Va¹í bezhotovostní platby je dùle¾ité. Na¹e organizace má regitraci na ÚOOÚ a mù¾e tedy s~tímto údajem pro svoji vnitøní potøebu disponovat. Zadání rodného èísla není kontrolováno, je tedy mo¾né, v~pøípadì va¹í neochoty tento údaj poskytnout, zadat libovolný øetìzec (èíselný nebo znakový). Budete--li ov¹em akci hradit bezhotovostnì, je nezbytné tento vá¹ identifikátor sdìlit na¹emu ekonomickému oddìlení pro dohledání va¹í platby a dané èíslo si zapsat a pou¾ívat pøi pøihla¹ování i na dal¹í akce.
+
+Druhým údajem je IZO ¹koly. Pokud neznáte IZO va¹í ¹koly, mù¾ete se pokusit jej vyhledat v~na¹í \textit{databázi ¹kol}, pøípadnì tam IZO va¹í ¹koly doplnit. Pokud nejste na akci vyslán ¾ádným ¹kolským zaøízením, zadejte znak *.
+
+Pokud zadáte IZO pouze èásteènì, budete na dal¹í obrazovce vyzváni vybrat ¹kolu z~na¹í databáze pøesnì.
+\obrazovka{scr4x}{Zaèátek elektronické pøihlá¹ky}{h}
+Pøihlá¹ka pokraèuje vyplnìním dal¹ích potøebných údajù. Pokud jste se ji¾ v~minulosti úèastnil(a) nìjaké na¹í akce a svìøil(a) nám své rodné èíslo, budete  ji¾ mít vìt¹inu údajù pøedvyplnìných. Je mo¾né údaje opravit a doplnit. Je nutné vyplnit alespoò povinné údaje, které jsou zobrazeny èervenou barvou.
+\obrazovka{scr5x}{Vyplnìní po¾adovaných údajù pøihlá¹ky}{h}
+\newpage
+Poslední obrazovka zobrazuje potvrzení va¹í úspì¹né pøihlá¹ky. Vìnujte pozornost zvlá¹tì údajùm pro bezhotovostní platbu.
+\obrazovka{scr6x}{Potvrzení pøihlá¹ky}{h}\par
+Celý informaèní systém pedagogického centra, s~jeho¾ veøejnì pøístupnou èástí jsme vás právì seznámili, vyu¾ívá výhradnì OSS (Open Source Software) - tedy sofware ¹íøené pod licencí GNU/GPL, jinak øeèeno zdarma. 
+
+Informaèní systém je naprogramován jazyky PHP a Perl, tiskové výstupy jsou generovány typografickým systémem \LaTeX (repektive pdf\LaTeX) do formátu PDF. Jako datové úlo¾i¹tì je vyu¾íván databázový server MySQL. Sazba tohoto zpravodaje je vytváøena typografickým systémem \LaTeX a výsledným formátem pro tisk je PostScript. 
+
+Vý¹e zmiòovaný software vyu¾ívá prostøedí operaèního systému Linux. Pokud byste mìli zájem dozvìdìt se více o~jeho vyu¾ití na va¹í ¹kole, jste zváni na semináø:
+\vfill
+\begin{minipage}{\textwidth}
+\begin{ovalenv}\setfonts [Lido-crm/10]
+\Large
+{\centering
+\parpic[c][ct]%
+{\scalebox{.7}{\includegraphics{images/edunix}}} 
+\picskip{0}\par}
+\vspace{5mm}
+{\centering
+Tým Edunixu, IC Gymnázium Bo¾eny Nìmcové, PgC Hradec Králové\\
+ve spolupráci s~ostatními organizacemi\\
+pøipravují\\[3mm]
+\textbf{\Huge Konference Linux a OSS/FS\\[2mm] ve ¹kolství}\\[3mm]
+Konference na téma vyu¾ití Linuxu, svobodného software (FS) a otevøeného software (OSS) ve ¹kolních sítích a uèebnách. 
+Místo a termín konference bude upøesnìn, pøedbì¾nì je stanovena na øíjen--listopad 2004.
+Upøesnìní termínu a dal¹í informace nalezneta na serverech:\\
+\texttt{http://www.edunix.cz}\\
+\texttt{http://www.gybon.cz/edunix}\\[2mm]}
+\end{ovalenv}
+\end{minipage}
+

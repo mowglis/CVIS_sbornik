@@ -1,0 +1,34 @@
+% definice zaznamu z databaze
+\def\akce#1{\gdef\Akce{#1}}
+\def\nazev#1{\gdef\Nazev{#1}}
+\def\popis#1{\gdef\Popis{#1}}
+\def\urceno#1{\gdef\Urceno{#1}}
+\def\termin#1{\gdef\Termin{#1}}
+\def\lektor#1{\gdef\Lektor{#1}}
+\def\garant#1{\gdef\Garant{#1}}
+\def\poplatek#1{\gdef\Poplatek{#1}}
+\def\poznamka#1{\gdef\Poznamka{#1}}
+\def\dalsigarant#1{\gdef\Dalsigarant{#1}}
+\def\logosI#1{\gdef\LogosI{#1}}
+\def\logosII#1{\gdef\LogosII{#1}}
+\def\logosIII#1{\gdef\LogosIII{#1}}
+\def\rozsah#1{\gdef\Rozsah{#1}}
+% definice zaznamu
+\def\z#1{\init #1 \done}
+% globalni definice
+\def\init{%
+\gdef\Akce{}
+\gdef\Nazev{}
+\gdef\Popis{}
+\gdef\Urceno{}
+\gdef\Termin{}
+\gdef\Lektor{}
+\gdef\Garant{}
+\gdef\Poplatek{*}
+\gdef\Poznamka{*}
+\gdef\Dalsigarant{*}
+\gdef\LogosI{*}
+\gdef\LogosII{*}
+\gdef\LogosIII{*}
+\gdef\Rozsah{*}
+}

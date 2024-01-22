@@ -1,0 +1,14 @@
+\akce{1-00-2-19}
+\nazev{Novinky\,pro\,zamìstnavatele\,v~r.\,2022}
+\akce{1-02-2-09}
+\nazev{Jak najít a vyu¾ít vnitøní motivaci\,u~dítìte\,s~autismem\,--\,on-line\,forma}
+\akce{1-02-2-12}
+\nazev{Vyu¾ití\,hudby\,v~práci\,s~dìtmi\,se\,SVP}
+\akce{1-04-2-03}
+\nazev{Internetové\,zdroje\,a\,hry\,ve\,výuce\,NJ}
+\akce{5-06-2-01}
+\nazev{Matmatická\,gramotnost\,na\,1.\,stupni\,Z© prostøednictvím\,didaktických\,her}
+\akce{5-03-2-04}
+\nazev{Vyu¾ití\,slohu\,a\,ètenáøských\,dílen\,k~podpoøe\,ètenáøské\,gramotnosti}
+\akce{1-02-2-06}
+\nazev{Muzikofiletika\,pro\,dvouleté\,dìti\,v\,M©}

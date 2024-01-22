@@ -1,0 +1,38 @@
+\akce{1-00-1-09}
+\nazev{Pozitivní\,leader\,aneb\,Nové\,pohledy\,na osobní\,rozvoj\,i\,zpùsoby\,vzdìlávání}
+\akce{2-00-1-01}
+\nazev{Zvládání\,emocí\,pøi\,jednání\,s\,druhými}
+\akce{4-00-1-02}
+\nazev{Zvládání\,emocí\,pøi\,jednání\,s\,druhými}
+\akce{2-01-1-02}
+\nazev{Problematika\,poruch chování a specifika práce s\,dìtmi\,s\,poruchou\,chování}
+\akce{1-02-1-06}
+\nazev{\normalsize Základní\,typy\,reagování\,dítìte}
+\akce{1-02-1-12}
+\nazev{Grafomotorika\,aneb\,Co\,potøebuje\,dítì\,pro\,rozvoj\,kresby\,a\,psaní}
+\akce{1-02-1-11}
+\nazev{Neukáznìné\,dítì\,v\,pøed¹kolním\,vìku}
+\akce{5-02-1-08}
+\nazev{Specifika\,práce\,pedagoga\,s\,dvouletými dìtmi\,v\,mateøské\,¹kole}
+\akce{2-05-1-01}
+\nazev{\normalsize Archiválie. Námìty pro práci se ¾áky v rámci ètenáøské gramotnosti}
+\akce{1-06-1-05}
+\nazev{Optika\,oèima,\,hlavou\,i\,rukama}
+\akce{2-06-1-04}
+\nazev{Podpora výuky matematiky a geometrie\,prostøednictvím GeoGebry\,I}
+\akce{3-06-1-02}
+\nazev{Finanèní\,matematika\,pro\,bì¾ný\,¾ivot}
+\akce{5-07-1-01}
+\nazev{\normalsize Tradièní\,podzimní\,geologická\,exkurze}
+\akce{3-08-1-01}
+\nazev{Hravá\,jóga\,pro\,dìti\,¹kolního\,vìku}
+\akce{1-10-1-03}
+\nazev{Výtvarná\,dílna.\,Andílci\,100krát\,jinak}
+\akce{5-10-1-08}
+\nazev{Výtvarné\,tvoøení.\,Recyklace\,rifloviny}
+\akce{5-01-1-10}
+\nazev{Strategie\,vedení\,tøídy\,na\,1.\,stupni\,Z©}
+\akce{2-02-1-01}
+\nazev{Polytechnická\,výchova\,v\,M©\,aneb Tunely\,a\,mosty\,krátí\,vzdálenosti}
+\akce{2-06-1-05}
+\nazev{Finanèní gramotnost pro ¾áky 1.~stupnì Z©}
